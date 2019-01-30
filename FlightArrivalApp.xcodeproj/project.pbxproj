@@ -10,16 +10,18 @@
 		79337BB321FEAAC900A471E8 /* FlightArrivalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79337BB221FEAAC900A471E8 /* FlightArrivalAppTests.swift */; };
 		79337BBB21FEAF9100A471E8 /* StorageProcessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79337BBA21FEAF9000A471E8 /* StorageProcessorTests.swift */; };
 		79337BBD21FEAFB000A471E8 /* ApiControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79337BBC21FEAFB000A471E8 /* ApiControllerTests.swift */; };
+		795B6C6E22024C64007517B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B6C5F22024C64007517B5 /* ViewController.swift */; };
+		795B6C7022024C76007517B5 /* StorageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B6C6F22024C76007517B5 /* StorageProcessor.swift */; };
+		795B6C7122024C76007517B5 /* StorageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B6C6F22024C76007517B5 /* StorageProcessor.swift */; };
+		795B6C7322024C81007517B5 /* FlightResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B6C7222024C81007517B5 /* FlightResultsTableViewCell.swift */; };
+		795B6C7422024C81007517B5 /* FlightResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B6C7222024C81007517B5 /* FlightResultsTableViewCell.swift */; };
 		7996CF3B21F6EFAF00A2BFD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996CF3A21F6EFAF00A2BFD0 /* AppDelegate.swift */; };
 		7996CF4221F6EFC200A2BFD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7996CF4121F6EFC200A2BFD0 /* Assets.xcassets */; };
 		7996CF4521F6EFC200A2BFD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7996CF4321F6EFC200A2BFD0 /* LaunchScreen.storyboard */; };
 		7996CF6721F6F20500A2BFD0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7996CF5821F6F0E700A2BFD0 /* Alamofire.framework */; };
 		7996CF6821F6F20500A2BFD0 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7996CF5821F6F0E700A2BFD0 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7996CF6D21F6F21D00A2BFD0 /* ApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996CF6C21F6F21D00A2BFD0 /* ApiController.swift */; };
-		7996CF7321F6F48000A2BFD0 /* FlightResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996CF7221F6F48000A2BFD0 /* FlightResultsTableViewCell.swift */; };
-		7996CF7521F6F49300A2BFD0 /* StorageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996CF7421F6F49300A2BFD0 /* StorageProcessor.swift */; };
 		7996CF7821F6F4E000A2BFD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7996CF7621F6F4DF00A2BFD0 /* Main.storyboard */; };
-		7996CF7A21F6F4F600A2BFD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996CF7921F6F4F500A2BFD0 /* ViewController.swift */; };
 		7996CF9621F6F74F00A2BFD0 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7996CF8721F6F6E100A2BFD0 /* SwiftyJSON.framework */; };
 		7996CF9721F6F74F00A2BFD0 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7996CF8721F6F6E100A2BFD0 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7996CFCE21F828A700A2BFD0 /* FlightArrivalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7996CFCC21F828A700A2BFD0 /* FlightArrivalApp.xcdatamodeld */; };
@@ -182,6 +184,9 @@
 		79337BB421FEAACA00A471E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79337BBA21FEAF9000A471E8 /* StorageProcessorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageProcessorTests.swift; sourceTree = "<group>"; };
 		79337BBC21FEAFB000A471E8 /* ApiControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiControllerTests.swift; sourceTree = "<group>"; };
+		795B6C5F22024C64007517B5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = SOURCE_ROOT; };
+		795B6C6F22024C76007517B5 /* StorageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageProcessor.swift; sourceTree = SOURCE_ROOT; };
+		795B6C7222024C81007517B5 /* FlightResultsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightResultsTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		7996CF3721F6EFAF00A2BFD0 /* FlightArrivalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightArrivalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7996CF3A21F6EFAF00A2BFD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7996CF4121F6EFC200A2BFD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -189,10 +194,7 @@
 		7996CF4621F6EFC300A2BFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7996CF4C21F6F0E700A2BFD0 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		7996CF6C21F6F21D00A2BFD0 /* ApiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
-		7996CF7221F6F48000A2BFD0 /* FlightResultsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlightResultsTableViewCell.swift; path = ../../FlightAttendantApp/FlightAttendantApp/FlightAttendantApp/FlightResultsTableViewCell.swift; sourceTree = "<group>"; };
-		7996CF7421F6F49300A2BFD0 /* StorageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StorageProcessor.swift; path = ../../FlightAttendantApp/FlightAttendantApp/FlightAttendantApp/StorageProcessor.swift; sourceTree = "<group>"; };
 		7996CF7721F6F4DF00A2BFD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../FlightAttendantApp/FlightAttendantApp/FlightAttendantApp/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7996CF7921F6F4F500A2BFD0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../FlightAttendantApp/FlightAttendantApp/FlightAttendantApp/ViewController.swift; sourceTree = "<group>"; };
 		7996CF7B21F6F6E100A2BFD0 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = "<group>"; };
 		7996CFCD21F828A700A2BFD0 /* FlightArrivalApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlightArrivalApp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -253,11 +255,11 @@
 			isa = PBXGroup;
 			children = (
 				7996CF3A21F6EFAF00A2BFD0 /* AppDelegate.swift */,
-				7996CF7921F6F4F500A2BFD0 /* ViewController.swift */,
+				795B6C5F22024C64007517B5 /* ViewController.swift */,
 				7996CF6C21F6F21D00A2BFD0 /* ApiController.swift */,
 				7996CF7621F6F4DF00A2BFD0 /* Main.storyboard */,
-				7996CF7421F6F49300A2BFD0 /* StorageProcessor.swift */,
-				7996CF7221F6F48000A2BFD0 /* FlightResultsTableViewCell.swift */,
+				795B6C6F22024C76007517B5 /* StorageProcessor.swift */,
+				795B6C7222024C81007517B5 /* FlightResultsTableViewCell.swift */,
 				7996CF4121F6EFC200A2BFD0 /* Assets.xcassets */,
 				7996CF4321F6EFC200A2BFD0 /* LaunchScreen.storyboard */,
 				7996CF4621F6EFC300A2BFD0 /* Info.plist */,
@@ -512,6 +514,8 @@
 			files = (
 				79337BBB21FEAF9100A471E8 /* StorageProcessorTests.swift in Sources */,
 				79337BB321FEAAC900A471E8 /* FlightArrivalAppTests.swift in Sources */,
+				795B6C7122024C76007517B5 /* StorageProcessor.swift in Sources */,
+				795B6C7422024C81007517B5 /* FlightResultsTableViewCell.swift in Sources */,
 				79337BBD21FEAFB000A471E8 /* ApiControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,11 +524,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7996CF7321F6F48000A2BFD0 /* FlightResultsTableViewCell.swift in Sources */,
-				7996CF7521F6F49300A2BFD0 /* StorageProcessor.swift in Sources */,
 				7996CF3B21F6EFAF00A2BFD0 /* AppDelegate.swift in Sources */,
 				7996CFCE21F828A700A2BFD0 /* FlightArrivalApp.xcdatamodeld in Sources */,
-				7996CF7A21F6F4F600A2BFD0 /* ViewController.swift in Sources */,
+				795B6C6E22024C64007517B5 /* ViewController.swift in Sources */,
+				795B6C7322024C81007517B5 /* FlightResultsTableViewCell.swift in Sources */,
+				795B6C7022024C76007517B5 /* StorageProcessor.swift in Sources */,
 				7996CF6D21F6F21D00A2BFD0 /* ApiController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
