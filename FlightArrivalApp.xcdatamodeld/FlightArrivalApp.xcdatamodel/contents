@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G4015" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AirportCode" representedClassName="AirportCode" syncable="YES" codeGenerationType="class">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Arrival2" representedClassName="Arrival2" syncable="YES" codeGenerationType="class">
+        <attribute name="dest" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="destZuluOffset" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="estArrTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fltId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orig" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="schedArrTimeDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="schedArrTimeString" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Timestamp1" representedClassName="Timestamp1" syncable="YES" codeGenerationType="class">
+        <attribute name="time" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AirportCode" positionX="-36" positionY="54" width="128" height="60"/>
+        <element name="Arrival2" positionX="-18" positionY="99" width="128" height="150"/>
+        <element name="Timestamp1" positionX="9" positionY="153" width="128" height="60"/>
+    </elements>
+</model>
