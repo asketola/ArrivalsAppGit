@@ -221,7 +221,15 @@ class StorageProcessor {
             print("Could not fetch. \(error), \(error.userInfo)")
         }
         
-        let singleAirportCode = airportCodes[0]
+        var singleAirportCode: AirportCode
+        if airportCodes.count > 0
+        {
+            singleAirportCode = airportCodes[0] as! AirportCode
+        }
+        else
+        {
+            return "SEA" // default airpoirt code
+        }
         let code = singleAirportCode.value(forKeyPath: "code") as! String
         return code
     }
